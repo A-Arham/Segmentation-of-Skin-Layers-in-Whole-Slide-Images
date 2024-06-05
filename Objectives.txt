@@ -1,0 +1,10 @@
+Objectives:
+You have to do following tasks in this assigned
+1. Define a V set to separate skin region from the background using 8-connectivity 
+based CCA
+2. Define new groups of V sets where you can now further differentiate between 
+different layers of skin 
+3. Compute Dice co-efficient. For this, count number of True and false pixels. True 
+pixels are those where your label and label given in masks of respective image are 
+overlapping and false pixels are those where they are not overlapping. Normalize this 
+by diving with total number of true pixels given in original mask.
